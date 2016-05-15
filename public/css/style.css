@@ -1,0 +1,1152 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td,a{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}del,ins,a{text-decoration:none;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:baseline;}sub{vertical-align:baseline;}legend{color:#000;}input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}input,button,textarea,select{font-size:100%;}body{font:13px arial,helvetica,clean,sans-serif;}select,input,button,textarea,button{font:99% arial,helvetica,clean,sans-serif;}table{font-size:inherit;font-size:100%;}pre,code,kbd,samp,tt{font-family:monospace;font-size:108%;line-height:100%;}
+
+
+
+@font-face {
+  font-family: 'Gotham-Bold';
+  src: url('../fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/Gotham-Bold.otf')  format('opentype'),
+	     url('../fonts/Gotham-Bold.woff') format('woff'), url('../fonts/Gotham-Bold.ttf')  format('truetype'), url('../fonts/Gotham-Bold.svg#Gotham-Bold') format('svg');
+
+}
+
+@font-face {
+  font-family: 'Gotham-Book';
+  src: url('../fonts/Gotham-Book.eot?#iefix') format('embedded-opentype'),  url('../fonts/Gotham-Book.woff') format('woff'), url('../fonts/Gotham-Book.ttf')  format('truetype'), url('../fonts/Gotham-Book.svg#Gotham-Book') format('svg');
+
+}
+
+@font-face {
+  font-family: 'Gotham-Medium';
+  src: url('../fonts/Gotham-Medium.eot?#iefix') format('embedded-opentype'),  url('../fonts/Gotham-Medium.woff') format('woff'), url('../fonts/Gotham-Medium.ttf')  format('truetype'), url('../fonts/Gotham-Medium.svg#Gotham-Medium') format('svg');
+}
+
+h1,h1{
+	margin-top:0px !important;
+	margin-bottom:0px !important;
+}
+
+p{
+	margin:0px !important;
+}
+
+.cb{
+	clear:both;
+}
+
+.home-header{
+	width:100%;
+	background:url(../images/header.jpg)no-repeat;
+	min-height:759px;
+	background-size: cover;
+}
+
+.home-header-subpart{
+	width:1190px;
+	margin:auto;
+	padding-top:20px;
+}
+
+.header-info1{
+	width:400px;
+	float:left;
+}
+
+.header-info2{
+	width:43%;
+	float:right;
+	padding-top:10px;
+}
+
+.header-info1 a{
+	display:inline-block;
+	float:left;
+}
+
+.header-info1 p{
+	width: 210px;
+    float: right;
+}
+
+.header-info1 span{
+	  font-family: 'Gotham-Bold';
+	  font-size:30px;
+	  color:#fff;
+	  vertical-align:middle;
+}
+
+.header-info2 ul li{
+	float:left;
+	margin-right:30px;
+	font-family: 'Gotham-Medium';
+	font-size:14px;
+	color:#fff;  
+}
+
+.header-info2 ul li a{
+	color:#fff;
+	text-transform:uppercase;
+}
+
+.header-info2 ul li:last-child{
+	margin-right:0px;
+}
+
+.header-info2 ul li a:hover{
+	color:#f15922;
+	text-decoration:none;
+}
+
+.home-header-detail{
+	width:715px;
+	margin:auto;
+	padding-top:250px;
+}
+
+.home-header-detail h1{
+	 font-family: 'Gotham-Bold';
+	  font-size:61px;
+	  color:#fff;
+	  text-align:center;
+}
+
+.home-header-detail h2{
+	 font-family: 'Gotham-Bold';
+	  font-size:83px;
+	  color:#fff;
+	  text-align:center;
+	  line-height:63px;
+	  margin-bottom:38px !important;
+}
+
+.home-header-detail p,.about-info p{
+	  font-family: 'Gotham-Book';
+	  font-size:16px;
+	  width:180px;
+	  text-transform:uppercase;
+	  text-align:center;
+}
+
+.home-header-detail p a,.about-info p a{
+	color:#fff;
+	display:block;
+	padding:13px 0;
+}
+
+.menu-btn{
+	 background-color:#f15922;
+	 float:left;
+}
+
+.location-btn{
+	 background-color:#0b9444;
+	 float:right;
+}
+
+.header-detail-part{
+	width:385px;
+	margin:auto;
+}
+
+.menu-1{
+	min-height:70px;
+	width: 100%;
+    background-size: cover;
+}
+
+.menu-1-info{
+	width:330px;
+	margin:auto;
+	padding-top:20px;
+	padding-left:-20px;	
+	text-align: center;
+}
+
+.menu-1-info span{
+	display:inline-block;
+	margin-left:50px;
+	font-family: 'Gotham-Bold';
+	font-size:25px;
+	color:#fff;
+	text-transform:uppercase;
+	vertical-align:middle;
+}
+
+.menu-part1{
+	width:182px;
+	height:222px;
+	float:left;
+	border-left:1px solid #bdbdbd;
+	border-bottom:1px solid #bdbdbd;
+}
+
+.menu-part1 ul{
+	width:150px;
+	margin:auto;
+	padding-top:65px;
+    padding-bottom:68px;
+	
+}
+
+.menu-part1 ul li:before{
+	content: "•";
+	color:#9b2d20;
+}
+
+.menu-part1 ul li{
+	font-family: 'Gotham-Bold';
+	font-size:16px;
+	color:#3e3e3e;
+}
+
+.home-menu .menu-content:nth-child(3),.home-menu .menu-content:nth-child(6),.home-menu .menu-content:nth-child(9){
+	margin-right:0px;
+}
+
+.home-menu{
+	width:1185px;
+	margin:auto;
+	padding-top:30px;
+}
+
+.menu-content{
+	width:380px;
+	float:left;
+	margin-right:20px;
+	margin-bottom:22px;
+	background-size: 100% 100%;		
+}
+
+.menu-bg{
+	width:100%;
+	min-height:2429px;
+	background:url(../images/menu-background.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+
+.home-menu h2{
+	width:378px;
+	margin:auto;
+	background-color:#0b9444;
+	text-align:center;
+	font-family: 'Gotham-Medium';
+	font-size:16px;
+	color:#fff;
+	text-transform:uppercase;
+	margin-top:20px !important;
+}
+
+.home-menu h2 a{
+	display:block;
+	padding:18px 0;
+	color:#fff;
+}
+
+.divider-1{
+	width:100%;
+	background:url(../images/divider-image.jpg) no-repeat;
+	min-height:554px;
+	background-size: cover;
+	margin-top:56px;
+}
+
+.divider-part-1{
+	padding-top:206px;
+	width:375px;
+	margin:auto;
+}
+
+.divider-part-1 h1,.divider-part-2 h1{
+	font-family: 'Gotham-Bold';
+	font-size:47px;
+	color:#ffffff;
+	text-align:center;
+}
+
+.divider-part-1 h2,.popular-deals h2,.divider-part-2 h2,.submit{
+	font-family: 'Gotham-Medium';
+	font-size:16px;
+	text-align:center;
+	width:265px;
+	background-color:#f15922;
+	text-transform:uppercase;
+	margin:44px auto 0 auto !important;
+}
+
+.contact-form-part .submit-form{
+	font-family: 'Gotham-Medium';
+	font-size:16px;
+	text-align:center;
+	width:265px;
+	background-color:#f15922;
+	text-transform:uppercase;
+	border:none;
+	color:#ffffff;
+	font-style:normal;
+	padding:0px;
+	display:block;
+	margin:0 auto 42px auto;
+}
+
+
+.divider-part-1 h2 a,.popular-deals h2 a,.divider-part-2 h2 a{
+	display:block;
+	padding:13px 0;
+    color:#ffffff;
+}
+
+.popular-deals{
+	width:1215px;
+	margin:auto;
+	padding-top:50px;
+}
+
+.deals-part{
+	width:295px;
+	float:left;
+	margin-right:8px;
+}
+
+.popular-deals > h1{
+	font-family: 'Gotham-Bold';
+	font-size:30px;
+	color:#f15922;
+	text-align:center;
+}
+
+.popular-deals p{
+	 font-family: 'Gotham-Book';
+	 font-size:14px;
+	 color:#252525;
+	 text-align:center;
+	 padding-bottom:32px;
+}
+
+.deal-subpart{
+	background-color:#0b9444;
+	height: 220px;
+}
+
+.deal-subpart-home{
+	background-color:#0b9444;
+	height: 220px;
+}
+
+.deal-subpart-category{
+	background-color:#0b9444;
+	height: 200px;
+}
+
+.deal-info{
+	background-color:#f15922;
+}
+
+
+.deal-content-home{
+	width:262px;
+	height:500px;
+	margin:auto;
+	padding-top:10px;
+}
+
+.deal-content-home p{
+	font-family: 'Roboto', sans-serif;
+	font-size:15px;
+	font-weight:500;
+	color:#fff;
+	margin-bottom:29px !important;
+	height: 80px;
+}
+
+.deal-content-home h1{
+	font-family: 'Roboto', sans-serif;
+	font-size:20px;
+	font-weight:500;
+	color:#fff;
+	text-transform:uppercase;
+}
+
+
+.deal-content-home h1{
+	font-family: 'Gotham-Medium';
+	font-size:17px;
+	color:#fff;
+	text-transform:uppercase;
+	margin-bottom:14px !important;
+}
+
+.deal-content-home ul li{
+	 font-family: 'Gotham-Book';
+	 font-size:14px;
+	 color:#fff;
+}
+
+.deal-content-info span,.deal-content-home span{
+	font-family: 'Gotham-Medium';
+	font-size:30px;
+	color:#fff;
+	float:left;
+}
+
+.deal-content-info img,.deal-content-home img{
+	float:right;
+	display: inline-block;
+    margin-top: 10px;
+}
+
+
+.deal-content{
+	width:262px;
+	margin:auto;
+	padding-top:10px;
+}
+
+
+.deal-content h1{
+	font-family: 'Gotham-Medium';
+	font-size:17px;
+	color:#fff;
+	text-transform:uppercase;
+	margin-bottom:14px !important;
+}
+
+.deal-content  ul li{
+	 font-family: 'Gotham-Book';
+	 font-size:14px;
+	 color:#fff;
+}
+
+.deal-content-info span,.deal-content span{
+	font-family: 'Gotham-Medium';
+	font-size:30px;
+	color:#fff;
+	float:left;
+}
+
+.deal-content-info img,.deal-content img{
+	float:right;
+	display: inline-block;
+    margin-top: 10px;
+}
+
+.deal-content-category{
+	height: 150px;
+	width:262px;
+	margin:auto;
+	padding-top:10px;
+}
+
+.deal-content-category h1{
+	font-family: 'Gotham-Medium';
+	font-size:17px;
+	color:#fff;
+	text-transform:uppercase;
+	margin-bottom:14px !important;
+}
+
+.deal-content-category  ul li{
+	 font-family: 'Gotham-Book';
+	 font-size:14px;
+	 color:#fff;
+}
+
+.deal-content-info span,.deal-content-category span{
+	font-family: 'Gotham-Medium';
+	font-size:30px;
+	color:#fff;
+	float:left;
+}
+
+.deal-content-info img,.deal-content-category img{
+	float:right;
+	display: inline-block;
+    margin-top: 10px;
+}
+
+.divider-2{
+	width:100%;
+	background:url(../images/divider-image2.jpg) no-repeat;
+	min-height:508px;
+	background-size: cover;
+	margin-top:56px;
+}
+
+.divider-part-2 {
+	width:585px;
+	margin:auto;
+	padding-top:135px;
+}
+
+.divider-part-2  p{
+	 font-family: 'Gotham-Book';
+	 font-size:18px;
+	 color:#fff;
+	 margin:20px 0 0px 0 !important;
+	 text-align:center;
+}
+
+.subscribe{
+	width:100%;
+	background-color:#0b9444;
+}
+
+.subscribe-part{
+	width:870px;
+	margin:auto;
+	padding:62px 0;
+}
+
+
+.subscribe-part h1,.subscribe-part h2{
+	font-family: 'Gotham-Bold';
+	font-size:30px;
+	color:#ffc600;
+	text-align:center;
+}
+
+.subscribe-part h2{
+	margin:50px 0 10px 0 !important;
+}
+
+.subscribe-part p{
+	font-family: 'Gotham-Book';
+	font-size:14px;
+	color:#ffffff;
+	text-align:center;
+}
+
+.subscribe-info{
+	width:390px;
+	margin:auto !important;
+}
+
+.subscribe-text{
+	width:480px;
+	height:50px;
+	padding-left:20px;
+	display:block;
+	margin:32px auto 0 auto;
+}
+
+.submit{
+	margin:20px auto 0 auto !important;
+	display:block;
+	border:none;
+	height:43px;
+	color:#ffffff;
+}
+
+footer{
+	width:100%;
+	background-color:#f15922;
+}
+
+.footer-part{
+	width:1125px;
+	margin:auto;
+	padding:33px 0 24px 0;
+}
+
+.footer-part1{
+	width:94px;
+	float:left;
+	margin-right:140px;
+} 
+
+.footer-part2{
+	width:150px;
+	float:left;
+	margin-right:85px;
+} 
+
+.footer-part3{
+	width:220px;
+	float:left;
+	margin-right:55px;
+} 
+
+.footer-part4{
+	width:370px;
+	float:left;
+} 
+
+.footer-part4 img{
+	display:block;
+	margin:0 0 25px 0;
+	float:right;
+}
+
+.footer-part1 h1,.footer-part2 h1,.footer-part3 h1{
+	font-family: 'Gotham-Medium';
+	font-size:18px;
+	color:#fff;
+	margin-bottom:22px !important;
+	text-transform:uppercase;
+}
+
+.footer-part1 ul li{
+	font-family: 'Gotham-Book';
+	font-size:12px;
+	text-transform:uppercase;
+}
+
+.footer-part1 ul li a{
+	color:#ffffff;
+}
+
+.footer-part2 p,.footer-part4 p{
+	font-family: 'Gotham-Book';
+	font-size:12px;
+	color:#ffffff;
+}
+
+.footer-part3 a{
+	display:inline-block;
+	margin-right:20px;
+}
+
+.footer-part3 a:last-child  {
+	margin-right:0px;
+}
+
+.submenu-header{
+	width:100%;
+	background-color:#000000;	
+}
+
+.submenu-header .home-header-subpart{
+	padding-bottom:23px;
+}
+
+.submenu-banner{
+	width:100%;
+	background:url(../images/submenu-header.jpg) no-repeat;
+	min-height:376px;
+	background-size:cover;
+}
+
+.submenu-banner{
+	font-size:62px;
+	color:#fff;
+	text-align:center;
+	padding-top:160px;
+}
+
+.submenu{
+	width:1190px;
+	margin:32px auto 0 auto;
+}
+
+.submenu .deals-part{
+	width:283px;
+	margin-right:13px;
+	margin-bottom:20px;
+}
+
+.submenu-banner h1{
+	font-family: 'Roboto', sans-serif;
+	font-size:61px;
+	font-weight:bold;
+	color:#fff;
+}
+
+.deal-content p{
+	font-family: 'Roboto', sans-serif;
+	font-size:15px;
+	font-weight:500;
+	color:#fff;
+	margin-bottom:29px !important;
+}
+
+.deal-content-category p{
+	font-family: 'Roboto', sans-serif;
+	font-size:15px;
+	font-weight:500;
+	color:#fff;
+	margin-bottom:29px !important;
+}
+
+.deal-content h1{
+	font-family: 'Roboto', sans-serif;
+	font-size:20px;
+	font-weight:500;
+	color:#fff;
+	text-transform:uppercase;
+}
+
+.featured-menu{
+	width:100%;
+	background:url(../images/menu-background2.jpg) no-repeat;
+	min-height:1068px;
+	background-size:cover;
+}
+
+.featured-menu > h1{
+	font-family: 'Roboto', sans-serif;
+	font-size:30px;
+	font-weight:bold;
+	color:#414141;
+	text-align:center;
+	padding:25px 0 15px 0;
+}
+
+.featured-menu > p{
+	font-family: 'Gotham-Book';
+	font-size:14px;
+	color:#252525;
+	text-align:center;
+}
+
+.about-banner{
+	width:100%;
+	background:url(../images/about-banner.jpg) no-repeat;
+	min-height:665px;
+	background-size:cover;
+}
+
+.about-detail{
+	width:100%;
+	background:url(../images/about-bg.jpg) no-repeat;
+	min-height:560px;
+	background-size:cover;
+}
+
+.about-part{
+	width:1022px;
+	margin:auto;
+	padding-top:68px;
+}
+
+.about-part h1,.contact-form-part h1{
+	font-family: 'Gotham-Bold';
+	font-size:30px;
+	color:#f15922;
+	text-align:center;
+	margin-bottom:40px !important;
+}
+
+.about-part > p{
+	font-family: 'Gotham-Book';
+	font-size:14px;
+	color:#000000;
+	text-align:center;
+	padding-bottom:80px;
+}
+
+.about-info{
+	width:390px;
+	margin:auto;
+}
+
+.contact-banner{
+	width:100%;
+	background:url(../images/contact-banner.jpg) no-repeat;
+	min-height:756px;
+	background-size:cover;
+}
+
+.contact-detail{
+	width:950px;
+	margin:60px auto 78px auto;
+}
+
+.contact-part{
+	width:315px;
+	float:left;
+}
+
+.contact-part > img{
+	display:block;
+	margin:0 auto 20px auto;
+}
+
+
+.contact-part {
+	font-family: 'Gotham-Medium';
+	font-size:16px;
+	color:#464646;
+	text-align:center;
+}
+
+.contact-form-part p{
+	font-family: 'Gotham-Book';
+	font-size:14px;
+	color:#252525;
+	text-align:center;
+	margin-bottom:37px !important;
+}
+
+.contact-form-part{
+	width:510px;
+	margin:auto;
+}
+
+.contact-form-part input{
+	width:476px;
+	padding-left:20px;
+	height:44px;
+	margin-bottom:12px;
+	border:2px solid #ebebeb;
+	font-family: 'Gotham-Book';
+	font-size:16px;
+	color:#727272;
+	font-style:italic;
+}
+
+.contact-form-part textarea{
+	width:476px;
+	padding:15px 0 0 20px;
+	height:200px;
+	margin-bottom:12px;
+	border:2px solid #ebebeb;
+	font-family: 'Gotham-Book';
+	font-size:16px;
+	color:#727272;
+	font-style:italic;
+	resize:none;
+}
+
+.contact-form-part  span a{
+	color:#0b9444;
+}
+
+.item-detail{
+	width:100%;
+	margin-bottom:42px;
+}
+
+.item-part{
+	width:285px;
+	margin-top:20px;
+	margin-bottom: 50px;
+	float: right;
+}
+
+.item-part h1{
+	font-family: 'Roboto', sans-serif;
+	font-size:30px;
+	font-weight:bold;
+	color:#0b9444;
+	margin-bottom:12px !important;
+}
+
+.item-part p{
+	font-family: 'Roboto', sans-serif;
+	font-size:15px;
+	font-weight:500;
+	color:#515151;
+	margin-bottom:30px !important;
+}
+
+.item-detail-info{
+	width:996px;
+}
+
+.item-part h2{
+	font-family: 'Roboto', sans-serif;
+	font-size:15px;
+	font-weight:500;
+	color:#515151;
+	float:left;
+	margin-right:40px;
+	margin-top: 3px !important;
+}
+
+.item-quantity{
+	margin-right:0px;
+}
+
+.item-part h3{
+	font-family: 'Roboto', sans-serif;
+	font-size:18px;
+	font-weight:500;
+	color:#515151;
+	text-transform:uppercase;
+	float:left;
+	margin-right:35px;
+}
+
+.price{
+	color:#0b9444 !important;
+	margin-right:0px;
+}
+
+.item-part input{
+	width:50px;
+	border-radius:5px;
+	border:1px solid #c1c1c1;
+}
+
+.item-content{
+	margin-bottom:35px;
+}
+
+.cart-btn-2{
+	width:234px;
+	background-color:#0b9444;
+	font-family: 'Gotham-Medium';
+	font-size:16px;
+}
+
+.cart-btn-2 a{
+	display:block;
+	padding:10px 0;
+	color:#fff;
+}
+
+.cart-btn-2  span{
+	display:block;
+	width:175px;
+	margin:auto;
+}
+
+
+.cart-btn-2  span img{
+	display:inline-block;
+	margin-right:24px;
+}
+
+
+.select-item-ingredients{
+	width:90%;
+	margin:0 auto 50px auto;
+}
+
+.select-item-ingredients > img{
+	display:block;
+	margin:auto;
+	padding-bottom:44px;
+}
+
+.item-ingredients-part h1,.more-items h1{
+	font-family: 'Gotham-Bold';
+	font-size:20px;
+	color:#2a2a2a;
+	text-transform:uppercase;
+	margin-bottom:18px !important;
+}
+
+.item-ingredients-part{
+	width:100%;
+	float:left;
+}
+
+.ingredients-subpart{
+	width:287px;
+	float:left;
+	margin-right:10px;
+	border:1px solid #e2e2e2;
+}
+
+.more-items{
+	width:275px;
+	float:right;
+}
+
+.ingredients-subpart-content{
+	width:250px;
+	margin:auto;
+}
+
+.ingredients-info{
+	width:100%;
+	border:1px solid #e2e2e2;
+	padding:8px 0;
+}
+
+.header-info{
+	background-color:#2a2a2a;
+	padding:12px 0;
+}
+
+
+.header-info p{
+	font-family: 'Gotham-Bold';
+	font-size:15px;
+	color:#fff;
+	text-transform:uppercase;
+}
+
+.para{
+	width:150px;
+	float:left;
+}
+
+.select-quantity{
+	width:90px;
+	float:right;
+}
+
+.select-quantity1{
+	width:60px;
+	float:right;
+}
+
+.select-quantity input{
+	width:48px;
+	border-radius:5px;
+	border:1px solid #c1c1c1;
+}
+
+.checkbox1{
+	margin-right:20px  !important;
+}
+
+
+.available-item {
+    background: url(../images/related-menu-header.jpg) no-repeat;
+    min-height: 48px;
+	margin-bottom:10px;
+}
+
+.available-item-info{
+	width:250px;
+	margin:auto;
+	padding-top:9px;
+}
+
+.available-item-info span{
+	font-family: 'Gotham-Bold';
+	font-size:18px;
+	color:#fff;
+	text-transform:uppercase;
+	display:inline-block;
+	margin-left:20px;
+}
+
+.checkout-button{
+	width:525px;
+	margin:30px auto 0 auto;
+	padding-bottom:70px;
+}
+
+.shop-btn{
+	width:255px;
+	float:left;
+	background-color:#f15922;
+}
+
+.checkout-btn{
+	width:255px;
+	float:right;
+	background-color:#0b9444;
+}
+
+.shop-btn span,.checkout-btn span{
+	display: block;
+    width: 229px;
+    margin: auto;
+
+}
+.shop-btn a,.checkout-btn a{
+    display: block;
+    padding: 10px 0;
+    color: #fff;
+}
+
+
+.shop-btn span img,.checkout-btn span img{
+	display: inline-block;
+    margin-right: 30px;
+}
+
+.deal-content-info{
+	width:100%;
+	background-color: #0b9444;
+}
+
+.deal-content-info:hover{
+	background-color:#f15922;
+}
+
+.sub-menu-info{
+	width: 262px;
+    margin: auto;
+}
+
+#imagePreview {
+	background-size: 100% 100%;
+}
+
+.home-deal-image{
+    display: block;
+}
+
+
+.home-deal-image img{
+	width:295px;
+    height: 199px;
+}
+
+
+.home-cuisine-image{
+    position: absolute;
+	height: 220px;
+	width: 200px;    
+	float: right;
+}
+
+
+.home-cuisine-image img{;
+	width: 100%;
+	height: 100%;
+	position: right;
+	z-index: -1;
+}
+
+.product-detail-image{
+	width: 450px;    	
+	height: 500px;
+	padding: 20px 20px 20px 20px; 
+	position: absolute;
+	right:45%;
+}
+
+.product-detail-image img{;
+	display: block;
+	width: 100%;
+	height: 80%;
+	margin-left: -40px;
+	margin-top:-10px;	
+}
+
+/*img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+*/
+
+
+.order_detail_product{
+	width: 120px;
+	height: 120px;
+	display: block;
+}
+
+.order_detail_product img{
+	width: 100%;
+	height: auto;
+}
+
+.order_detail_product-part1{
+	float: left;
+	width: 10%;
+}
+
+.order_detail_product-part2{
+	float: right;
+	width: 88%;
+}
+
+.noti_bubble {
+    display: inline;
+    margin-top: -10px;
+    margin-right: 0px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    border-radius: 1px;
+    float: right;
+}
